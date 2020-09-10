@@ -1,4 +1,4 @@
-# Khai tasks for Program Engeneering, Data structures, other tasks.
+# Khai tasks for Program Engeneering, Data structures, ect.
 
 ## Current semester: 2-1
 
