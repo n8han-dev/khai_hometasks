@@ -3,4 +3,4 @@
 test/
 .idea/
 .vscode
-**/venv
+**/venv/
