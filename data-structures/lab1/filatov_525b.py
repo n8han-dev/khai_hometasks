@@ -31,8 +31,10 @@ class Sorter:
         print("%d comparisons; %d swaps\n%d operations in total" % (comp, swap, comp+swap))
 
     def both_sorts(self, arr):
+        print("---------------")
         print("Bubble sorting")
         self.bubble_sort(arr)
+        print("---------------")
         print("Insertion sorting")
         self.insertion_sort(arr)
 
