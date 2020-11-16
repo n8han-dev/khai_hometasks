@@ -27,7 +27,8 @@ void calc_c()
 
 void assembler()
 {
-    asm ("vari $1");
+    int vari
+    asm ("movl %ecx, %0" "=r" (vari));
     asm ("movl vari, %eax");
     asm ("add $2, %eax");
 }
