@@ -21,8 +21,13 @@ class Algorithms:
         for e in lns:
             [ss[int(e[1])].append(e) for e in ar[s:s+e]]
             print("ss: ", ss)
+            for f in ss:
+                for k in f:
+                    ar[s] = k
+                    s += 1
             [e.clear() for e in ss]
-            s += e
+        print("arr: ", ar)
+
 
 
     @staticmethod
